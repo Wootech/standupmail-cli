@@ -1,0 +1,14 @@
+Usage:
+  sm authorize
+  sm teams
+  sm digest (<date>) [-t=<teamid>]
+  sm [-t=<teamid>] [-d | -n | -b] (<message>)
+  sm help [COMMAND]
+
+Options:
+  -h --help     Show this screen
+  -v --version  Show version
+  -t            Team-ID to send message to [default: 0]
+  -d            DONE message
+  -n            NEXT message
+  -b            BLOCK message
